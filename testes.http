@@ -1,0 +1,35 @@
+### Criar podcast
+POST http://localhost:3333/rest/
+Content-Type: application/json
+
+{
+  "name": "Matemática",
+  "description": "Podcast de matemática"
+}
+
+###
+
+### Listar todas podcasts
+GET http://localhost:3333/api/list
+
+###
+
+### Buscar podcast por ID
+GET http://localhost:3333/api/episode
+
+# Achar um podcast por parametro
+GET http://localhost:3333/api/episode?p=flow
+
+### Atualizar podcast
+PUT http://localhost:3333/rest/
+Content-Type: application/json
+
+{
+  "name": "Física",
+  "description": "Podcast de física"
+}
+
+###
+
+### Remover podcast
+DELETE http://localhost:3333/rest/
