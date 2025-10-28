@@ -18,7 +18,7 @@ GET http://localhost:3333/api/list
 GET http://localhost:3333/api/episode
 
 # Achar um podcast por parametro
-GET http://localhost:3333/api/episode?p=flow
+GET http://localhost:3333/api/episode?p=venus
 
 ### Atualizar podcast
 PUT http://localhost:3333/rest/
